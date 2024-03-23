@@ -19,6 +19,12 @@ The following diagram show three availability zones in a single Azure Region:
 
 ![Availability Zones](../assets/az900/availability-zones.png "Availability Zones")
 
+Availability zones are primarily for VMs, managed disks, load balancers, and SQL databases. Azure services that support availability zones fall into three categories:
+
+- Zonal services: You pin the resource to a specific zone - (for example, VMs, managed disks, IP addresses).
+- Zone-redundant services: The platform replicates - automatically across zones (for example, zone-redundant - storage, SQL Database).
+- Non-regional services: Services are always available from Azure geographies and are resilient to zone-wide outages as well as region-wide outages.
+
 ## Region Pairs
 Many regions also have a paired region to support cross-region replication based on proximity and other factors.
 
@@ -95,7 +101,7 @@ A resource group is a container to manage and aggregate resources in a single un
 ![Resource Groups](../assets/az900/resource-groups.png "Resource Groups")
 
 ## Azure Subscriptions
-An Azure subscription provides you with authenticated and authorized access to Azure accounts.
+Subscriptions are a unit of management, billing, and scale. An Azure subscription provides you with authenticated and authorized access to Azure accounts.
 
 - **Billing boundary:** generate separate billing reports and invoices for each subscription.
 - **Access control boundary:** manage and control access to the resources that users can provision with specific subscriptions.

@@ -8,6 +8,12 @@
 - Virtual subnets, segment your network to suit your needs
 - Network peering, connect your private networks directly together
 
+### Communicate between Azure resources
+You'll want to enable Azure resources to communicate securely with each other. You can do that in one of two ways:
+
+- **Virtual networks** can connect not only VMs but other Azure resources, such as the App Service Environment for Power Apps, Azure Kubernetes Service, and Azure virtual machine scale sets.
+- **Service endpoints** can connect to other Azure resource types, such as Azure SQL databases and storage accounts. This approach enables you to link multiple Azure resources to virtual networks to improve security and provide optimal routing between resources.
+
 ### Address Space
 An **address space** is the range of IP addresses that are available. Every service or resource that is connected to a VNet will get its own unique address on that VNet within the address space. That is how services on the same VNet can find each other and communicate.
 

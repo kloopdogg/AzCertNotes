@@ -37,9 +37,21 @@ The Pricing Calculator is a tool that helps you estimate the cost of Azure produ
 
 ![Total Cost of Ownership Calculator](../assets/az900/tco-calculator.png "Total Cost of Ownership Calculator")
 
-## Microsoft Cost Management
+
+## Cost Management
+Cost Management provides the ability to quickly check Azure resource costs, create alerts based on resource spend, and create budgets that can be used to automate management of resources.
+
+### Cost Management Features
 - Reporting - billing reports
 - Data enrichment
 - Budgets - set spend budget
 - Alerting - when cost exceed limits
 - Recommendation - cost recommendations
+
+### Tags
+One way to organize related resources is to place them in their own subscriptions. You can also use resource groups to manage related resources. Resource tags are another way to organize resources. Tags provide extra information, or metadata, about your resources.
+
+- Provides metadata for your Azure resources.
+- Logically organizes resources into a taxonomy.
+- Consists of a name-value pair.
+- Very useful for rolling up billing information.

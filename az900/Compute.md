@@ -44,6 +44,13 @@ Examples of compute resources are:
 ## VM availability sets
 Availability sets are logical groupings of VMs that reduce the chance of correlated failures bringing down related VMs at the same time. Availability sets place VMs in different fault domains for better reliability, especially beneficial if a region doesn't support availability zones. When using availability sets, create two or more VMs within an availability set. Using two or more VMs in an availability set helps highly available applications and meets the 99.95% Azure SLA. There's no extra cost for using availability sets, you only pay for each VM instance you create.
 
+Availability sets do this by grouping VMs in two ways: update domain and fault domain.
+
+- **Update domain** \
+The update domain groups VMs that can be rebooted at the same time. This allows you to apply updates while knowing that only one update domain grouping will be offline at a time. All of the machines in one update domain will be updated. An update group going through the update process is given a 30-minute time to recover before maintenance on the next update domain starts.
+- **Fault domain** \
+The fault domain groups your VMs by common power source and network switch. By default, an availability set will split your VMs across up to three fault domains. This helps protect against a physical power or networking failure by having VMs in different fault domains (thus being connected to different power and networking resources).
+
 ![VM availability sets](../assets/az900/vm-availability-sets.png "VM availability sets")
 
 ## Azure Virtual Desktop
@@ -51,6 +58,13 @@ Availability sets are logical groupings of VMs that reduce the chance of correla
 1. Create a full desktop virtualization environment without having to run additional gateway servers.
 1. Reduce risk of resource being left behind.
 1. True multi-session deployments.
+
+## What are containers?
+Containers are a virtualization environment. Much like running multiple virtual machines on a single physical host, you can run multiple containers on a single physical or virtual host. Unlike virtual machines, you don't manage the operating system for a container. 
+
+Containers are often used to create solutions by using a microservice architecture. This architecture is where you break solutions into smaller, independent pieces. 
+
+This split allows you to separate portions of your app into logical sections that can be maintained, scaled, or updated independently.
 
 ## Azure Container Services
 **Azure Containers** are a light-weight, virtualized environment that does not require operating system management, and can respond to changes on demand.

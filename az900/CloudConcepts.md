@@ -153,6 +153,7 @@ Users connect to and use cloud-based apps over the internet: for example, Micros
 | Physical datacenter | Microsoft | Microsoft | Customer | Customer |
 
 ## Cloud Architecture Models
+The cloud models define the deployment type of cloud resources. The three main cloud models are: private, public, and hybrid.
 > Choose your cloud architecture model wisely. 
 
 ### Private Cloud
@@ -235,3 +236,17 @@ Decision points:
     </tr>
 </table>
 
+
+## Consumption-based model
+When comparing IT infrastructure models, there are two types of expenses to consider. Capital expenditure (CapEx) and operational expenditure (OpEx).
+- **CapEx** is typically a one-time, up-front expenditure to purchase or secure tangible resources. 
+- **OpEx** is spending money on services or products over time.
+
+Cloud computing falls under OpEx because cloud computing operates on a consumption-based model. With cloud computing, you don’t pay for the physical infrastructure, the electricity, the security, or anything else associated with maintaining a datacenter. Instead, you pay for the IT resources you use.
+
+This consumption-based model has many benefits, including:
+
+- No upfront costs.
+- No need to purchase and manage costly infrastructure that - users might not use to its fullest potential.
+- The ability to pay for more resources when they're needed.
+- The ability to stop paying for resources that are no longer needed.

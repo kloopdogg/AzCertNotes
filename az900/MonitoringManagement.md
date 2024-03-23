@@ -1,11 +1,5 @@
 # Monitoring and Management
 
-## Tags
-- Provides metadata for your Azure resources.
-- Logically organizes resources into a taxonomy.
-- Consists of a name-value pair.
-- Very useful for rolling up billing information.
-
 ## Microsoft Purview
 Microsoft Purview is a family of data governance, risk, and compliance solutions that helps you get a single, unified view into your data- Microsoft Purview brings insights about your on-premises, multi-cloud, and software-as-a-service data together.
 - Automated data discovery
@@ -13,7 +7,9 @@ Microsoft Purview is a family of data governance, risk, and compliance solutions
 - End-to-end data lineage
 
 ## Azure Policy
-**Azure Policy** helps to enforce organizational standards and to assess compliance at-scale- Provides governance and resource consistency with regulatory compliance, security, cost, and management.
+**Azure Policy** is a service in Azure that enables you to create, assign, and manage policies that control or audit your resources. These policies enforce different rules across your resource configurations so that those configurations stay compliant with corporate standards.
+
+Azure Policy helps to enforce organizational standards and to assess compliance at-scale- Provides governance and resource consistency with regulatory compliance, security, cost, and management.
 - Evaluates and identifies Azure resources that do not comply with your policies.
 - Provides built-in policy and initiative definitions, under categories such as Storage, Networking, Compute, Security Center, and Monitoring.
 
@@ -126,3 +122,6 @@ Azure Arc is a bridge that extends the Azure platform to help you build applicat
 - **Azure Status:** global view of the health of all Azure services across all Azure regions
 - **Service Health:** focused view on only the services and regions that you're using- If a service is experiencing a problem in a region you're not using, it won't show up here
 - **Resource Health:** tailored view of your actual Azure resources- It provides information about the health of your individual cloud resources
+
+## Azure Monitor
+**Azure Monitor** is a platform for collecting data on your resources, analyzing that data, visualizing the information, and even acting on the results. Azure Monitor can monitor Azure resources, your on-premises resources, and even multi-cloud resources like virtual machines hosted with a different cloud provider.

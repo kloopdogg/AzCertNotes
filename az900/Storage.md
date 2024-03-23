@@ -39,16 +39,24 @@ You can switch between these access tiers at any time.
 | Optimized for storing data that is accessed frequently. | Optimized for storing data that is infrequently accessed and stored for at least 30 days. | Optimized for storing data that is infrequently accessed and stored for at least 90 days. | Optimized for storing data that is rarely accessed and stored for at least 180 days with flexible latency requirements. | 
 
 ## Azure Migrate
+Azure Migrate is a service that helps you migrate from an on-premises environment to the cloud.
 - Unified migration platform
 - Range of integrated and standalone tools
 - Assessment and migration
 
 ## Azure Data Box
+Azure Data Box is a physical migration service that helps transfer large amounts of data in a quick, inexpensive, and reliable way. The secure data transfer is accelerated by shipping you a proprietary Data Box storage device. The Data Box is transported to and from your datacenter via a regional carrier. A rugged case protects and secures the Data Box from damage during transit.
 - Store up to 80 terabytes of data.
 - Move your disaster recovery backups to Azure.
 - Protect your data in a rugged case during transit.
 - Migrate data out of Azure for compliance or regulatory needs.
 - Migrate data to Azure from remote locations with limited or no connectivity.
+
+## AzCopy
+AzCopy is a command-line utility that you can use to copy blobs or files to or from your storage account. With AzCopy, you can upload files, download files, copy files between storage accounts, and even synchronize files. 
+
+## Azure File Sync
+Azure File Sync is a tool that lets you centralize your file shares in Azure Files and keep the flexibility, performance, and compatibility of a Windows file server.
 
 ## File management options
 
