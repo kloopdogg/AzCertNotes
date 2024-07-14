@@ -1,21 +1,29 @@
 # AI-900 - Azure AI Fundamentals
 
 Table of Contents:
-- [Fundamental AI Concepts](Fundamental-AI-Concepts.md)
-- [Fundamentals of Machine Learning](Fundamentals-of-Machine-Learning.md)
-- [Fundamentals of Azure AI Services](Fundamentals-of-Azure-AI-Services.md)
-- [Fundamentals of Computer Vision](Fundamentals-of-Computer-Vision.md)
-- [Fundamentals of Facial Recognition](Fundamentals-of-Facial-Recognition.md)
-- Fundamentals of Optimal Character Recognition
-- Fundamentals of Text Analysis with the Language Service
-- Fundamentals of question answering with the Language Service
-- Fundamentals of conversational language understanding
-- Fundamentals of Azure AI Speech
-- Fundamentals of Azure AI Document Intelligence
-- Fundamentals of Knowledge Mining and Azure AI Search
-- Fundamentals of Generative AI
-- Fundamentals of Azure OpenAI Service
-- Fundamentals of Responsible Generative AI
+- AI Overview
+    - [AI Concepts](AI-Concepts.md)
+    - [Machine Learning](Machine-Learning.md)
+    - [Azure AI Services](Azure-AI-Services.md)
+- Computer Vision
+    - [Computer Vision](Computer-Vision.md)
+    - [Facial Recognition](Facial-Recognition.md)
+    - [Optical Character Recognition](Optical-Character-Recognition.md)
+- Natural Language Processing
+    - [Text Analysis with the Language Service](Text-Analysis-with-the-Language-Service.md)
+    - [Question Answering with the Language Service](Question-Answering-with-the-Language-Service.md)
+    - [Conversational language understanding](Conversational-Language-Understanding.md)
+    - [Azure AI Speech](Azure-AI-Speech.md)
+- Document Intelligence and Knowledge Mining
+    - [Azure AI Document Intelligence](Azure-AI-Document-Intelligence.md)
+    - [Knowledge Mining and Azure AI Search](Knowledge-Mining-and-Azure-AI-Search.md)
+- Generative AI
+    - [Generative AI](Generative-AI.md)
+    - [Azure OpenAI Service](Azure-OpenAI-Service.md)
+    - [Responsible Generative AI](Responsible-Generative-AI.md)
 
-## Overview
+
+
+
+# Notes
 TODO
