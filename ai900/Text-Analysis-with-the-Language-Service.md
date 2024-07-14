@@ -29,6 +29,7 @@ Common tokenization concepts that may apply to a specific kind of NLP problem:
 - **Stop word removal**: Stop words are words that should be excluded from the analysis. For example, "the", "a", or "it" make text easier for people to read but add little semantic meaning. 
 - **n-grams**: Multi-term phrases such as "I have" or "he walked". A single word phrase is a unigram, a two-word phrase is a bi-gram, a three-word phrase is a tri-gram, and so on. By considering words as groups, a machine learning model can make better sense of the text.
 - **Stemming**: Technique in which algorithms are applied to consolidate words before counting them, so that words with the same root are interpreted as being the same token.
+- **Vectorization**: Captures semantic relationships between words by assigning them to locations in n-dimensional space.
 
 ### Frequency analysis
 Count the number of occurrences of each token, and determine the main subject of a test corpus by finding the most frequently used tokens/bigrams.

@@ -1,4 +1,4 @@
-# question answering with the Language Service
+# Question answering with the Language Service
 Create a custom question answering knowledge base with Azure AI Language, and create a bot with Azure AI Bot Service that answers user questions.
 
 ## Intro

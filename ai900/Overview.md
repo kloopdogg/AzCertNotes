@@ -24,6 +24,3 @@ Table of Contents:
 
 
 
-
-# Notes
-TODO
