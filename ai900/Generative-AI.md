@@ -19,7 +19,7 @@ Transformer model architecture consists of two components, or blocks:
 - **Encoder block** creates semantic representations of the training vocabulary
 - **Decoder block** generates new language sequences
 
-**Transformer Model**:
+**Transformer Model**: \
 ![Transformer model](../assets/ai900/transformer-model.png "Transformer model")
 
 1. The model is trained with a large volume of natural language text, often sourced from the internet or other public sources of text.
